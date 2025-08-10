@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0;
+  padding: 2rem 0;
+  width: 25%;
+  background-color: var(--card-bg-color);
+  border-top: 5px solid var(--blue-600-facebook);
+  border-radius: 4px 4px 8px 8px;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.username {
+  font-size: 14px;
+  color: var(--text-color);
+  font-weight: 700;
+}
+
+.totalFollowers {
+  margin: 2rem 0 0;
+  font-size: 4rem;
+  color: var(--text-color-strong);
+}
+
+.audience {
+  font-size: 14px;
+  color: var(--text-color);
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+
+.dailyChange {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0 0;
+  gap: 0.5rem;
+  font-size: 14px;
+  font-weight: 700;
+}
