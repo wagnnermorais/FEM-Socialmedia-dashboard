@@ -15,6 +15,7 @@ function App() {
           audience="Followers"
           icon="/images/icon-up.svg"
           dailyChange={12}
+          borderTop="5px solid var(--blue-600-facebook)"
         />
         <FollowersContainer
           social="/images/icon-twitter.svg"
@@ -23,6 +24,7 @@ function App() {
           audience="Followers"
           icon="/images/icon-up.svg"
           dailyChange={99}
+          borderTop="5px solid var(--blue-500-twitter)"
         />
         <FollowersContainer
           social="/images/icon-instagram.svg"
@@ -31,6 +33,9 @@ function App() {
           audience="Followers"
           icon="/images/icon-up.svg"
           dailyChange={1099}
+          borderTop="5px solid transparent"
+          borderImage="var(--instagram-gradient) 1"
+          borderImageSlice="1"
         />
         <FollowersContainer
           social="/images/icon-youtube.svg"
@@ -39,11 +44,12 @@ function App() {
           audience="Subscribers"
           icon="/images/icon-down.svg"
           dailyChange={144}
+          borderTop="5px solid var(--red-700-youtube)"
           isAudienceLost
         />
       </section>
-      <h2>Overview - Today</h2>
-      <section>
+      <h2 className={styles.overviewTitle}>Overview - Today</h2>
+      <section className={styles.overviewSection}>
         <OverviewContainer
           title="Page Views"
           social="/images/icon-facebook.svg"
@@ -57,6 +63,7 @@ function App() {
           dailyTotal={52}
           icon="/images/icon-down.svg"
           dailyChange={2}
+          isAudienceLost
         />
         <OverviewContainer
           title="Likes"
@@ -92,6 +99,7 @@ function App() {
           dailyTotal={107}
           icon="/images/icon-down.svg"
           dailyChange={19}
+          isAudienceLost
         />
         <OverviewContainer
           title="Total Views"
