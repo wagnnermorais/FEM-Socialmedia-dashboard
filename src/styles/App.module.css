@@ -7,3 +7,27 @@
   display: flex;
   gap: 1rem;
 }
+
+.overviewTitle {
+  font-size: 2rem;
+  color: var(--text-color-strong);
+  margin: 2rem 0 1rem;
+}
+
+.overviewSection {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+@media (max-width: 1024px) {
+  .overviewSection {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .overviewSection {
+    grid-template-columns: 1fr;
+  }
+}
