@@ -5,5 +5,8 @@ export interface FollowersContainerProps {
   dailyChange: number;
   icon: string;
   audience: string;
+  borderTop: string;
+  borderImage?: string;
+  borderImageSlice?: string;
   isAudienceLost?: boolean;
 }

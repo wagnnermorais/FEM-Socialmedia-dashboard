@@ -8,10 +8,20 @@ export default function ({
   dailyChange,
   icon,
   audience,
+  borderTop,
+  borderImage,
+  borderImageSlice,
   isAudienceLost = false,
 }: FollowersContainerProps) {
   return (
-    <div className={styles.container}>
+    <div
+      className={styles.container}
+      style={{
+        borderTop: borderTop,
+        borderImage: borderImage,
+        borderImageSlice: borderImageSlice,
+      }}
+    >
       <div className={styles.socials}>
         <img src={social} alt={`${social} icon`} />
         <small className={styles.username}>{username}</small>

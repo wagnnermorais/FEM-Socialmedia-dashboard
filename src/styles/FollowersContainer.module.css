@@ -7,7 +7,6 @@
   padding: 2rem 0;
   width: 25%;
   background-color: var(--card-bg-color);
-  border-top: 5px solid var(--blue-600-facebook);
   border-radius: 4px 4px 8px 8px;
 }
 
