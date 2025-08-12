@@ -4,4 +4,5 @@ export interface OverviewContainerProps {
   dailyTotal: number | string;
   dailyChange: number;
   icon: string;
+  isAudienceLost?: boolean;
 }
