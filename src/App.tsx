@@ -75,7 +75,7 @@ function App() {
         <OverviewContainer
           title="Profile Views"
           social="/images/icon-instagram.svg"
-          dailyTotal={"52K"}
+          dailyTotal={"52k"}
           icon="/images/icon-up.svg"
           dailyChange={1375}
         />

@@ -11,6 +11,11 @@
   margin-bottom: 2rem;
 }
 
+.overviewHeader img {
+  width: 24px;
+  height: 24px;
+}
+
 .overviewContent {
   display: flex;
   align-items: center;
@@ -24,7 +29,7 @@
 }
 
 .dailyTotal {
-  font-size: 2.225rem;
+  font-size: 2.5rem;
   color: var(--text-color-strong);
 }
 
